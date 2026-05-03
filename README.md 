@@ -1,0 +1,17 @@
+# Spring Boot Auth Microservice
+
+## Features
+- User Registration
+- Login API
+- JWT Authentication
+- Protected Profile API
+- BCrypt Password Hashing
+- MySQL Integration
+
+## Tech Stack
+- Java 17
+- Spring Boot 3
+- MySQL
+- Spring Security
+- JWT
+- Maven
