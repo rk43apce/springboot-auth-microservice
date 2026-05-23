@@ -21,7 +21,7 @@ public class UserService {
 
         userRepository.findByEmail(request.getEmail())
                 .ifPresent(user -> {
-                    throw new RuntimeException("Email already registered");
+                    throw new RuntimeException("Email already registered!!");
                 });
 
         User user = User.builder()
